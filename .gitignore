@@ -34,4 +34,4 @@ Thumbs.db
 /content/
 
 # Opzionale: se volete versionare grafici e tabelle finali, commentate la riga sotto
-# results/figures/*.jpeg
+# results/figures/*.jpegresults/step1_preprocessing.npz
