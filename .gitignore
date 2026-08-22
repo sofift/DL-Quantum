@@ -1,0 +1,37 @@
+# Dataset e dati pesanti (restano solo su Google Drive)
+*.csv
+data/
+
+# Modelli addestrati e checkpoint
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+saved_models/
+
+# Log di training / tensorboard
+runs/
+logs/
+tb_logs/
+
+# Notebook: output ed eventuali checkpoint di Colab/Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente Colab
+/content/
+
+# Opzionale: se volete versionare grafici e tabelle finali, commentate la riga sotto
+# results/figures/*.jpeg
